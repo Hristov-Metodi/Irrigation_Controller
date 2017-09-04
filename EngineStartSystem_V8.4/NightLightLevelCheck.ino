@@ -4,7 +4,7 @@
 
 void nightLightLevelCheck(){
   
-  Log("nightLightLevelCheck START");
+  Log("nightLightLevelCheck START @: " + String(millis()));
 
   ChokeServo.detach();                // cuts off power to the servo
   
@@ -18,12 +18,12 @@ void nightLightLevelCheck(){
 
     if(photocellReading > 110)    // TESTED AT NIGHT!!!
     {
-      Log("Too bright. Waiting for night (10 min)...");
+      Log("Too bright. Waiting for night (10 min)... @: " + String(millis()));
       delay(10UL*60UL*1000UL); // waits for 10 minutes before checking again
     }
   } while (photocellReading > 110);
   
-  Log("nightLightLevelCheck END");
+  Log("nightLightLevelCheck END @: " + String(millis()));
 }
 
 

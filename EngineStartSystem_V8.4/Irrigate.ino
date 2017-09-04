@@ -62,9 +62,9 @@ void StartAutoIrrigate(){
 ---------------------------------------------------------------------*/
 
 void StopIrrigationPump(){
-  Log("StopIrrigationPump BEGIN");
+  Log("StopIrrigationPump START @: " + String(millis()));
   digitalWrite(IrrigationPumpControl, HIGH);
   IRRIGATION_PUMP_STAT = 0;
   delay(1000);
-  Log("StopIrrigationPump END");
+  Log("StopIrrigationPump END @: " + String(millis()));
 }

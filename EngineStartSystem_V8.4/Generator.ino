@@ -6,7 +6,7 @@
 void StartGenerator(){
 
 
-  Log("StartGenerator BEGIN");
+  Log("StartGenerator BEGIN @: " + String(millis()));
   
   digitalWrite(FuelValveRelay, LOW);    // Turns ON the fuel line
   FUEL_VALVE_STAT = 1;
@@ -52,7 +52,7 @@ void StartGenerator(){
   
   delay (1000);
 
-  Log("StartGenerator END");
+  Log("StartGenerator END @: " + String(millis()));
 }
 
 /* ------------------------------------------------------------------
@@ -64,7 +64,7 @@ boolean GeneratorStatusCheck()
 	int counter = 0;
 	boolean value;	
   
-  Log("GeneratorStatusCheck BEGIN");
+  Log("GeneratorStatusCheck BEGIN @: " + String(millis()));
 	
 	for(meascycles = 0 ; meascycles < 300; meascycles++)
 	{
@@ -80,13 +80,13 @@ boolean GeneratorStatusCheck()
 	if(counter >= 150)
 	{
         IGN_STAT = 1;
-        Log("GENERATOR IS WORKING!");
+        Log("GENERATOR IS WORKING! @: " + String(millis()));
         return 1;
         
 	}
  
   IGN_STAT = 0;
-  Log("GENERATOR IS IDLE!");
+  Log("GENERATOR IS IDLE! @: " + String(millis()));
   return 0;
 }
 
@@ -98,7 +98,7 @@ void StopGenerator()
 {
   boolean gen_running;
   unsigned int time_elapsed=0;
-  Log("StopGenerator BEGIN");
+  Log("StopGenerator BEGIN @: " + String(millis()));
 
   delay (100); // wait 100ms for the system to stabilize
   do
@@ -115,5 +115,5 @@ void StopGenerator()
   ENGINE_CUT_OFF_STAT = 0;
   IGN_STAT = 0;
   Log("GeneratorRunning = " + String(gen_running) + ". ElapsedTime = " + String(time_elapsed));
-  Log("StopGenerator END");
+  Log("StopGenerator END @: " + String(millis()));
 }

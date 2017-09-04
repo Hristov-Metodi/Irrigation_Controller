@@ -1,7 +1,7 @@
 
 void I2CLightSensorCheck(){
 
-  Log("I2CLightSensorCheck BEGIN");
+  Log("I2CLightSensorCheck START @: " + String(millis()));
   
   // Wait integration timer (ms) between measurements before retrieving the result
   delay(ms);
@@ -29,8 +29,8 @@ void I2CLightSensorCheck(){
   else
   {
     // getData() returned false because of an I2C error, inform the user.
-    Log("TSL2561 ERROR");
+    Log("TSL2561 ERROR @: " + String(millis()));
   }
 
-  Log("I2CLightSensorCheck END");
+  Log("I2CLightSensorCheck END @: " + String(millis()));
 }

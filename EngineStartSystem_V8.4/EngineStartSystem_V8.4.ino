@@ -182,7 +182,8 @@ void loop() {
 
     Log("cranck_reset_check = " + String(cranck_reset_check));
     Log("Arduino RESTARTED @ Crancking due to insifficienrt battery power!");
-        
+
+    I2CLightSensorCheck();
     dayLightLevelCheck();    // wait for sufficient amount of sunlight
     
     delay(120UL*60UL*1000UL); // expose solar pannel to 2 hour of sufficient sinlight before ignition retry
@@ -205,7 +206,8 @@ void loop() {
   /* ------------------------------------------------------------------
                        FILLING UP THE 4000 LITER TANK
   ---------------------------------------------------------------------*/
-
+  delay(5000);  // To help when reflashing to erase (zero out) EEPROM varaibles
+  
   boolean generator_running = 0;
   int start_retry_cnt = 0;
   
@@ -216,7 +218,8 @@ void loop() {
     unsigned long startTankFillUpCycleMillis = millis();
 
     Log("\nSTART OF TANK FILLING_UP CYCLE: " + String(cycleCounter) + " @: "+ String(millis()));
-    
+
+    I2CLightSensorCheck();
     dayLightLevelCheck();
 
     StopGenerator(); // <------ REMOVE WHEN YOU GET TO A STABLE SW/HW!
@@ -231,7 +234,7 @@ void loop() {
       
       if(generator_running == 0){
 
-        Log("Ignition FAILED!");
+        Log("Ignition FAILED! @: "+ String(millis()));
         
         StopGenerator();
 
@@ -254,19 +257,16 @@ void loop() {
     }
     else
     {
-      Log("Generator FAILED to start 3 times in a roll. WAITING FOR ASSISTANCE!");
+      Log("Generator FAILED to start 3 times in a roll @: " + String(millis()) + " WAITING FOR ASSISTANCE!");
       Finish();
     }
    
-    Log("Starting wellRecoveryTime timer...");
+    Log("Starting wellRecoveryTime timer...@: "+ String(millis()));
     delay(wellRecoveryTime);
-    Log("wellRecoveryTime timer has elapsed.");
+    Log("wellRecoveryTime timer has elapsed @: "+ String(millis()));
 
     unsigned long duration = (millis() - startTankFillUpCycleMillis) / (1000UL * 60UL);
     Log("END OF TANK FILLING_UP CYCLE: " + String(cycleCounter) + " @: "+ String(millis()) + " (" + String(duration) + " minutes)");
-    
-    //unsigned long duration = (endTankFillUpCycleMillis - startTankFillUpCycleMillis) / (1000 * 60);
-    //Log("FILLING_UP CYCLE DURATION = " + String(duration) + " minutes");
 
     cycleCounter ++;                // First set the Cycle Counter to cycleCounter ++, so the counter will be correct if the program is stoped during wellRecoveryTime (by me)
     EEPROM.put(20, cycleCounter);
@@ -284,7 +284,8 @@ void loop() {
   for(int irCycleCounter = 1; irCycleCounter <= 3; irCycleCounter++){
 
     Log("\nSTART OF AUTONOMOUS IRRIGATION CYCLE: " + String(irCycleCounter) + " @ " + String(millis()));
-    
+
+    I2CLightSensorCheck();
     nightLightLevelCheck();
 
     StopGenerator(); // <------ REMOVE WHEN YOU GET TO A STABLE SW/HW!

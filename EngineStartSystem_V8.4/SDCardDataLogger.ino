@@ -12,7 +12,7 @@ int LogInit(String filename, int serial_baudrate)
     res = SD.begin(SD_CARD_SELECT);
     if(res != 0)
     {
-        Serial.println("\n\nSDcard initialized");
+        Serial.println("\n\nSDcard initialized @: " + String(millis()));
         LogFile = SD.open(filename, FILE_WRITE);
         if(LogFile)
         {
