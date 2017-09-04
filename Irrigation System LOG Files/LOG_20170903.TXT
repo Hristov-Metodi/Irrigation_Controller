@@ -1,0 +1,61 @@
+SoftwareVersion = 8.30
+reset_counter = 1761
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 12 @: 1609
+dayLightLevelCheck START
+Light level = 667
+dayLightLevelCheck END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+
+Ignition attempt = 1
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Ignition FAILED!
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+Wait 1 hour before retrying...
+SoftwareVersion = 8.30
+reset_counter = 0
+cranck_reset_check=0
+Start of 3h delay...
+SoftwareVersion = 8.30
+reset_counter = 0
+cranck_reset_check=0
+Start of 3h delay...
+SoftwareVersion = 8.30
+reset_counter = 1
+cranck_reset_check=0
+Start of 3h delay...
+SoftwareVersion = 8.30
+reset_counter = 2
+cranck_reset_check=0
+Start of 3h delay...
+SoftwareVersion = 8.30
+reset_counter = 3
+cranck_reset_check=0
+Start of 3h delay...
+
+START OF TANK FILLING_UP CYCLE: 0 @: 10800196
+dayLightLevelCheck START
+Light level = 191
+Too dark. Waiting for sun (10 min)...
+Light level = 181
+Too dark. Waiting for sun (10 min)...
+Light level = 232
+Too dark. Waiting for sun (10 min)...
+SoftwareVersion = 8.30
+reset_counter = 235
+cranck_reset_check=0
+Start of 3h delay...

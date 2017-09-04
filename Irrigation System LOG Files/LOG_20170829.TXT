@@ -1,0 +1,1072 @@
+SoftwareVersion = 8.30
+reset_counter = 7
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 31 @: 1839
+dayLightLevelCheck START
+Light level = 706
+dayLightLevelCheck END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+
+Ignition attempt = 1
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Generator RUNNING!
+StartWellPump BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 32000ms
+Tank is FULL. Timer = 32000. GeneratorRunning = 1
+StartWellPump END
+StopWellPump BEGIN
+StopWellPump END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Starting wellRecoveryTime timer...
+SoftwareVersion = 8.30
+reset_counter = 8
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 31 @: 1192
+dayLightLevelCheck START
+Light level = 705
+dayLightLevelCheck END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+
+Ignition attempt = 1
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Generator RUNNING!
+StartWellPump BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 32000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 36000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 40000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 44000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 48000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 52000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 56000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 60000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 64000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 68000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 72000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 76000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 80000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 84000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 88000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 92000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 96000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 100000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 104000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 108000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 112000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 116000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 120000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 124000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 128000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 132000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 136000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 140000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 144000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 148000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 152000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 156000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 160000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 164000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 168000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 172000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 176000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 180000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 184000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 188000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 192000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 196000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 200000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 204000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 208000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 212000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 216000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 220000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 224000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 228000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 232000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 236000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 240000ms
+Tank is NotFull. Timer = 240000. GeneratorRunning = 1
+StartWellPump END
+StopWellPump BEGIN
+StopWellPump END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Starting wellRecoveryTime timer...
+wellRecoveryTime timer has elapsed.
+END OF TANK FILLING_UP CYCLE: 31 @: 3870030 (3868837 minutes)
+
+START OF TANK FILLING_UP CYCLE: 32 @: 3870170
+dayLightLevelCheck START
+Light level = 493
+Too dark. Waiting for sun (10 min)...
+Light level = 320
+Too dark. Waiting for sun (10 min)...
+Light level = 218
+Too dark. Waiting for sun (10 min)...
+Light level = 167
+Too dark. Waiting for sun (10 min)...
+Light level = 151
+Too dark. Waiting for sun (10 min)...
+Light level = 145
+Too dark. Waiting for sun (10 min)...
+Light level = 141
+Too dark. Waiting for sun (10 min)...
+Light level = 139
+Too dark. Waiting for sun (10 min)...
+Light level = 136
+Too dark. Waiting for sun (10 min)...
+Light level = 138
+Too dark. Waiting for sun (10 min)...
+Light level = 137
+Too dark. Waiting for sun (10 min)...
+Light level = 133
+Too dark. Waiting for sun (10 min)...
+Light level = 136
+Too dark. Waiting for sun (10 min)...
+Light level = 134
+Too dark. Waiting for sun (10 min)...
+Light level = 133
+Too dark. Waiting for sun (10 min)...
+Light level = 132
+Too dark. Waiting for sun (10 min)...
+Light level = 132
+Too dark. Waiting for sun (10 min)...
+Light level = 131
+Too dark. Waiting for sun (10 min)...
+Light level = 131
+Too dark. Waiting for sun (10 min)...
+Light level = 130
+Too dark. Waiting for sun (10 min)...
+Light level = 130
+Too dark. Waiting for sun (10 min)...
+Light level = 129
+Too dark. Waiting for sun (10 min)...
+Light level = 129
+Too dark. Waiting for sun (10 min)...
+Light level = 128
+Too dark. Waiting for sun (10 min)...
+Light level = 129
+Too dark. Waiting for sun (10 min)...
+Light level = 127
+Too dark. Waiting for sun (10 min)...
+Light level = 129
+Too dark. Waiting for sun (10 min)...
+Light level = 127
+Too dark. Waiting for sun (10 min)...
+Light level = 130
+Too dark. Waiting for sun (10 min)...
+Light level = 129
+Too dark. Waiting for sun (10 min)...
+Light level = 127
+Too dark. Waiting for sun (10 min)...
+Light level = 127
+Too dark. Waiting for sun (10 min)...
+Light level = 127
+Too dark. Waiting for sun (10 min)...
+Light level = 126
+Too dark. Waiting for sun (10 min)...
+Light level = 125
+Too dark. Waiting for sun (10 min)...
+Light level = 126
+Too dark. Waiting for sun (10 min)...
+Light level = 121
+Too dark. Waiting for sun (10 min)...
+Light level = 124
+Too dark. Waiting for sun (10 min)...
+Light level = 125
+Too dark. Waiting for sun (10 min)...
+Light level = 124
+Too dark. Waiting for sun (10 min)...
+Light level = 123
+Too dark. Waiting for sun (10 min)...
+Light level = 124
+Too dark. Waiting for sun (10 min)...
+Light level = 123
+Too dark. Waiting for sun (10 min)...
+Light level = 123
+Too dark. Waiting for sun (10 min)...
+Light level = 120
+Too dark. Waiting for sun (10 min)...
+Light level = 123
+Too dark. Waiting for sun (10 min)...
+Light level = 122
+Too dark. Waiting for sun (10 min)...
+Light level = 122
+Too dark. Waiting for sun (10 min)...
+Light level = 122
+Too dark. Waiting for sun (10 min)...
+Light level = 122
+Too dark. Waiting for sun (10 min)...
+Light level = 122
+Too dark. Waiting for sun (10 min)...
+Light level = 121
+Too dark. Waiting for sun (10 min)...
+Light level = 122
+Too dark. Waiting for sun (10 min)...
+Light level = 123
+Too dark. Waiting for sun (10 min)...
+Light level = 127
+Too dark. Waiting for sun (10 min)...
+Light level = 137
+Too dark. Waiting for sun (10 min)...
+Light level = 162
+Too dark. Waiting for sun (10 min)...
+Light level = 212
+Too dark. Waiting for sun (10 min)...
+Light level = 312
+Too dark. Waiting for sun (10 min)...
+Light level = 459
+Too dark. Waiting for sun (10 min)...
+Light level = 586
+Too dark. Waiting for sun (10 min)...
+Light level = 639
+dayLightLevelCheck END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+
+Ignition attempt = 1
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Ignition FAILED!
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+Wait 1 hour before retrying...
+
+Ignition attempt = 2
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Ignition FAILED!
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+Wait 1 hour before retrying...
+
+Ignition attempt = 3
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Generator RUNNING!
+StartWellPump BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 32000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 36000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 40000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 44000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 48000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 52000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 56000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 60000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 64000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 68000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 72000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 76000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 80000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 84000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 88000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 92000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 96000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 100000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 104000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 108000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 112000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 116000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 120000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 124000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 128000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 132000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 136000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 140000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 144000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 148000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 152000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 156000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 160000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 164000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 168000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 172000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 176000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 180000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 184000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 188000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 192000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 196000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 200000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 204000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 208000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 212000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 216000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 220000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 224000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 228000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 232000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 236000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 240000ms
+Tank is NotFull. Timer = 240000. GeneratorRunning = 1
+StartWellPump END
+StopWellPump BEGIN
+StopWellPump END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Starting wellRecoveryTime timer...
+wellRecoveryTime timer has elapsed.
+END OF TANK FILLING_UP CYCLE: 32 @: 51574633 (47704462 minutes)
+
+START OF TANK FILLING_UP CYCLE: 33 @: 51574774
+dayLightLevelCheck START
+Light level = 712
+dayLightLevelCheck END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+
+Ignition attempt = 1
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Generator RUNNING!
+StartWellPump BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 32000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 36000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 40000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 44000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 48000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 52000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 56000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 60000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 64000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 68000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 72000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 76000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 80000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 84000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 88000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 92000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 96000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 100000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 104000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 108000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 112000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 116000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 120000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 124000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 128000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 132000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 136000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 140000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 144000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 148000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 152000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 156000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 160000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 164000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 168000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 172000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 176000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 180000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 184000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 188000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 192000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 196000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 200000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 204000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 208000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 212000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 216000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 220000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 224000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 228000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 232000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 236000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 240000ms
+Tank is NotFull. Timer = 240000. GeneratorRunning = 1
+StartWellPump END
+StopWellPump BEGIN
+StopWellPump END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Starting wellRecoveryTime timer...
+wellRecoveryTime timer has elapsed.
+END OF TANK FILLING_UP CYCLE: 33 @: 55443173 (3868398 minutes)
+
+START OF TANK FILLING_UP CYCLE: 34 @: 55443310
+dayLightLevelCheck START
+Light level = 714
+dayLightLevelCheck END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+
+Ignition attempt = 1
+StartGenerator BEGIN
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Generator RUNNING!
+StartWellPump BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 32000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 36000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 40000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 44000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 48000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 52000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 56000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 60000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 64000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 68000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 72000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 76000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 80000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 84000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 88000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 92000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 96000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 100000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 104000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 108000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 112000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 116000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 120000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 124000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 128000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 132000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 136000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 140000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 144000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 148000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 152000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 156000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 160000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 164000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 168000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 172000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 176000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 180000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 184000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 188000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 192000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 196000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 200000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 204000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 208000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 212000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 216000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 220000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 224000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 228000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 232000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 236000ms
+GeneratorStatusCheck BEGIN
+GENERATOR IS WORKING!
+Well Pump has been working for: 240000ms
+Tank is NotFull. Timer = 240000. GeneratorRunning = 1
+StartWellPump END
+StopWellPump BEGIN
+StopWellPump END
+StopGenerator BEGIN
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END
+GeneratorStatusCheck BEGIN
+GENERATOR IS IDLE!
+Starting wellRecoveryTime timer...
+wellRecoveryTime timer has elapsed.
+END OF TANK FILLING_UP CYCLE: 34 @: 59311702 (3868392 minutes)
+THE END OF THE FULL IRRIGATION CYCLE HAS BEEN REACHED SUCCESSFULLY. Waiting for RESET...(if infinite Irrigation LOOP is OFF)
+Finish!
