@@ -1,0 +1,312 @@
+SoftwareVersion = 8.40
+reset_counter = 8
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5833
+I2CLightSensorCheck START @: 5855
+I2C Light Sensor: 102.00 lux
+I2CLightSensorCheck END @: 6299
+dayLightLevelCheck START @: 6319
+Light level = 489
+Too dark. Waiting for sun (10 min)... @: 6360
+SoftwareVersion = 8.40
+reset_counter = 9
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5182
+I2CLightSensorCheck START @: 5202
+I2C Light Sensor: 608.88 lux
+I2CLightSensorCheck END @: 5647
+dayLightLevelCheck START @: 5673
+Light level = 630
+Light level = 630
+Light level = 630
+Light level = 630
+Light level = 630
+Light level = 630
+Light level = 630
+Light level = 629
+Too dark. Waiting for sun (10 min)... @: 5856
+SoftwareVersion = 8.40
+reset_counter = 10
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5183
+I2CLightSensorCheck START @: 5204
+I2C Light Sensor: 608.93 lux
+I2CLightSensorCheck END @: 5649
+dayLightLevelCheck START @: 5669
+Light level = 649
+dayLightLevelCheck END @: 5711
+StopGenerator BEGIN @: 5741
+GeneratorStatusCheck BEGIN @: 5865
+GENERATOR IS WORKING! @: 8889
+GeneratorStatusCheck BEGIN @: 8910
+GENERATOR IS WORKING! @: 11934
+GeneratorStatusCheck BEGIN @: 11955
+GENERATOR IS WORKING! @: 14979
+GeneratorStatusCheck BEGIN @: 14999
+GENERATOR IS WORKING! @: 18024
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 18065
+
+Ignition attempt = 1
+StartGenerator BEGIN @: 18107
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END @: 28318
+GeneratorStatusCheck BEGIN @: 28346
+GENERATOR IS WORKING! @: 31370
+Generator RUNNING!
+StartWellPump START @: 31411
+GeneratorStatusCheck BEGIN @: 32131
+GENERATOR IS WORKING! @: 35155
+WellPumpCurrentClampCheck START @: 35186
+Well Pump Current = 15.47 A
+WELL PUMP IS WORKING! @: 35881
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN @: 36623
+GENERATOR IS WORKING! @: 39648
+WellPumpCurrentClampCheck START @: 39669
+Well Pump Current = 4.09 A
+WELL PUMP IS IDLE! @: 40167
+Well Pump has been working for: 8000ms
+Generator is RUNNING. Well Pump is NotRunning. Tank is NotFull. Timer = 8000
+StartWellPump END @: 40282
+StopWellPump START @: 40310
+StopWellPump END @: 41340
+StopGenerator BEGIN @: 41362
+GeneratorStatusCheck BEGIN @: 41483
+GENERATOR IS WORKING! @: 44508
+GeneratorStatusCheck BEGIN @: 44529
+GENERATOR IS WORKING! @: 47554
+GeneratorStatusCheck BEGIN @: 47575
+GENERATOR IS WORKING! @: 50599
+GeneratorStatusCheck BEGIN @: 50621
+GENERATOR IS WORKING! @: 53645
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 53696
+GeneratorStatusCheck BEGIN @: 53718
+GENERATOR IS WORKING! @: 56748
+Starting wellRecoveryTime timer...@: 56769
+SoftwareVersion = 8.40
+reset_counter = 11
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5184
+I2CLightSensorCheck START @: 5206
+I2C Light Sensor: 140.74 lux
+I2CLightSensorCheck END @: 5652
+dayLightLevelCheck START @: 5673
+Light level = 505
+Too dark. Waiting for sun (10 min)... @: 5716
+SoftwareVersion = 8.40
+reset_counter = 12
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5190
+I2CLightSensorCheck START @: 5212
+I2C Light Sensor: 98.60 lux
+I2CLightSensorCheck END @: 5658
+dayLightLevelCheck START @: 5680
+Light level = 669
+dayLightLevelCheck END @: 5722
+StopGenerator BEGIN @: 5743
+GeneratorStatusCheck BEGIN @: 5873
+GENERATOR IS WORKING! @: 8898
+GeneratorStatusCheck BEGIN @: 8919
+GENERATOR IS WORKING! @: 11943
+GeneratorStatusCheck BEGIN @: 11965
+GENERATOR IS WORKING! @: 14990
+GeneratorStatusCheck BEGIN @: 15011
+GENERATOR IS WORKING! @: 18044
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 18087
+
+Ignition attempt = 1
+StartGenerator BEGIN @: 18137
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END @: 28533
+GeneratorStatusCheck BEGIN @: 28551
+GENERATOR IS WORKING! @: 31572
+Generator RUNNING!
+StartWellPump START @: 31607
+GeneratorStatusCheck BEGIN @: 32325
+GENERATOR IS WORKING! @: 35347
+WellPumpCurrentClampCheck START @: 35365
+Well Pump Current = 15.48 A
+WELL PUMP IS WORKING! @: 36282
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN @: 37022
+GENERATOR IS WORKING! @: 40046
+WellPumpCurrentClampCheck START @: 40067
+Well Pump Current = 4.06 A
+WELL PUMP IS IDLE! @: 40562
+Well Pump has been working for: 8000ms
+Generator is RUNNING. Well Pump is NotRunning. Tank is NotFull. Timer = 8000
+StartWellPump END @: 40677
+StopWellPump START @: 40706
+StopWellPump END @: 41736
+StopGenerator BEGIN @: 41756
+GeneratorStatusCheck BEGIN @: 41876
+GENERATOR IS WORKING! @: 44901
+GeneratorStatusCheck BEGIN @: 44928
+GENERATOR IS WORKING! @: 47951
+GeneratorStatusCheck BEGIN @: 47972
+GENERATOR IS WORKING! @: 50996
+GeneratorStatusCheck BEGIN @: 51016
+GENERATOR IS WORKING! @: 54040
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 54082
+GeneratorStatusCheck BEGIN @: 54103
+GENERATOR IS WORKING! @: 57142
+Starting wellRecoveryTime timer...@: 57162
+SoftwareVersion = 8.40
+reset_counter = 13
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5184
+I2CLightSensorCheck START @: 5211
+I2C Light Sensor: 128.28 lux
+I2CLightSensorCheck END @: 5656
+dayLightLevelCheck START @: 5677
+Light level = 663
+dayLightLevelCheck END @: 5718
+StopGenerator BEGIN @: 5742
+GeneratorStatusCheck BEGIN @: 5872
+GENERATOR IS WORKING! @: 8896
+GeneratorStatusCheck BEGIN @: 8916
+GENERATOR IS WORKING! @: 11940
+GeneratorStatusCheck BEGIN @: 11962
+GENERATOR IS WORKING! @: 14986
+GeneratorStatusCheck BEGIN @: 15006
+GENERATOR IS WORKING! @: 18030
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 18078
+
+Ignition attempt = 1
+StartGenerator BEGIN @: 18124
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END @: 28317
+GeneratorStatusCheck BEGIN @: 28336
+GENERATOR IS WORKING! @: 31357
+Generator RUNNING!
+StartWellPump START @: 31393
+GeneratorStatusCheck BEGIN @: 32111
+GENERATOR IS WORKING! @: 35133
+WellPumpCurrentClampCheck START @: 35151
+Well Pump Current = 16.14 A
+WELL PUMP IS WORKING! @: 35844
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN @: 36589
+GENERATOR IS WORKING! @: 39613
+WellPumpCurrentClampCheck START @: 39633
+Well Pump Current = 3.80 A
+WELL PUMP IS IDLE! @: 40131
+Well Pump has been working for: 8000ms
+Generator is RUNNING. Well Pump is NotRunning. Tank is NotFull. Timer = 8000
+StartWellPump END @: 40245
+StopWellPump START @: 40274
+StopWellPump END @: 41305
+StopGenerator BEGIN @: 41325
+GeneratorStatusCheck BEGIN @: 41445
+GENERATOR IS WORKING! @: 44469
+GeneratorStatusCheck BEGIN @: 44490
+GENERATOR IS WORKING! @: 47521
+GeneratorStatusCheck BEGIN @: 47543
+GENERATOR IS WORKING! @: 50566
+GeneratorStatusCheck BEGIN @: 50587
+GENERATOR IS WORKING! @: 53611
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 53652
+GeneratorStatusCheck BEGIN @: 53672
+GENERATOR IS WORKING! @: 56713
+Starting wellRecoveryTime timer...@: 56733
+SoftwareVersion = 8.40
+reset_counter = 14
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5184
+I2CLightSensorCheck START @: 5206
+I2C Light Sensor: 85.23 lux
+I2CLightSensorCheck END @: 5655
+dayLightLevelCheck START @: 5676
+Light level = 538
+Too dark. Waiting for sun (10 min)... @: 5716
+SoftwareVersion = 8.40
+reset_counter = 15
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5184
+I2CLightSensorCheck START @: 5206
+I2C Light Sensor: 124.37 lux
+I2CLightSensorCheck END @: 5650
+dayLightLevelCheck START @: 5670
+Light level = 667
+dayLightLevelCheck END @: 5712
+StopGenerator BEGIN @: 5736
+GeneratorStatusCheck BEGIN @: 5866
+GENERATOR IS WORKING! @: 8906
+GeneratorStatusCheck BEGIN @: 8927
+GENERATOR IS WORKING! @: 11951
+GeneratorStatusCheck BEGIN @: 11971
+GENERATOR IS WORKING! @: 14995
+GeneratorStatusCheck BEGIN @: 15015
+GENERATOR IS WORKING! @: 18039
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 18080
+
+Ignition attempt = 1
+StartGenerator BEGIN @: 18123
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END @: 28536
+GeneratorStatusCheck BEGIN @: 28557
+GENERATOR IS WORKING! @: 31581
+Generator RUNNING!
+StartWellPump START @: 31643
+GeneratorStatusCheck BEGIN @: 32463
+GENERATOR IS WORKING! @: 35487
+WellPumpCurrentClampCheck START @: 35508
+Well Pump Current = 16.14 A
+WELL PUMP IS WORKING! @: 35821
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN @: 36662
+GENERATOR IS WORKING! @: 39686
+WellPumpCurrentClampCheck START @: 39707
+Well Pump Current = 3.78 A
+WELL PUMP IS IDLE! @: 40024
+Well Pump has been working for: 8000ms
+Generator is RUNNING. Well Pump is NotRunning. Tank is NotFull. Timer = 8000
+StartWellPump END @: 40145
+StopWellPump START @: 40167
+StopWellPump END @: 41197
+StopGenerator BEGIN @: 41219
+GeneratorStatusCheck BEGIN @: 41338
+GENERATOR IS WORKING! @: 44362
+GeneratorStatusCheck BEGIN @: 44384
+GENERATOR IS WORKING! @: 47408
+GeneratorStatusCheck BEGIN @: 47428
+GENERATOR IS WORKING! @: 50452
+GeneratorStatusCheck BEGIN @: 50472
+GENERATOR IS WORKING! @: 53496
+GeneratorRunning = 1. ElapsedTime = 12000
+StopGenerator END @: 53538
+GeneratorStatusCheck BEGIN @: 53558
+GENERATOR IS WORKING! @: 56605
+Starting wellRecoveryTime timer...@: 56626
+SoftwareVersion = 8.40
+reset_counter = 16
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5185
+I2CLightSensorCheck START @: 5206
+I2C Light Sensor: 55.08 lux
+I2CLightSensorCheck END @: 5651
+dayLightLevelCheck START @: 5671
+Light level = 497
+Too dark. Waiting for sun (10 min)... @: 5712
+Light level = 511
+Too dark. Waiting for sun (10 min)... @: 605780
