@@ -1,3 +1,11 @@
+/* ------------------------------------------------------------------
+                       I2C LIGHT SENSOR FUNCTION
+CONNECTIONS:
+1. 3.3V (red)
+2. GND  (black)
+3. SDA  (white)
+4. SLK  (brown)
+---------------------------------------------------------------------*/
 
 void I2CLightSensorCheck(){
 

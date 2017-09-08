@@ -62,6 +62,13 @@ const unsigned int chokeCloseAngle          = 63;      //  63 degrees - the Chok
 const unsigned int numberOfCycles   = 35;     // 160 liters per cycle (number of cycles to fill the water tank [4000 l / 200 l = 20 cycles])
 unsigned int cycleCounter           = 0;      // The WellPump counter of the cycles (manipulated by StartWellPump to jump to numberOfCycles if Tank IS FULL)!!!
 
+unsigned int wellPumpCurrentClampCounter = 0; // Make current clamp measurement inly is the counter is at a set value (5)
+
+// Tank Level Estimation Variables:
+double       tankLevelEstimation         = 0.0;       // Used in estimating the tank level
+double       wellPumpWaterThisCycle      = 0.0;       // Estimation of the water pumped every cycle
+const double wellPumpLitersPerMinute     = 46.66;     // GRUNFUS Well Pump liters per minute
+
 boolean FUEL_VALVE_STAT       = 0;
 boolean CHOKE_STAT            = 0;
 boolean CRANK_CONTROL_STAT    = 0;
@@ -132,7 +139,10 @@ void setup() {
   pinMode (BottomFloatSensor_2, INPUT);           // BottomFloatSensor_2    - PIN 46
   pinMode (TopFloatSensor_1, INPUT);              // TopFloatSensor_1       - PIN 42
   pinMode (TopFloatSensor_2, INPUT);              // TopFloatSensor_2       - PIN 40
-  
+
+
+  // PIN A0 - Analogue Light Sensor
+  // PIN A1 - Current Clamp
   pinMode (A2, OUTPUT);
   pinMode (A3, OUTPUT);
   pinMode (A4, OUTPUT);
@@ -204,7 +214,7 @@ void loop() {
   }
   
   /* ------------------------------------------------------------------
-                       FILLING UP THE 4000 LITER TANK
+                       FILLING UP THE 4000 LITERS TANK
   ---------------------------------------------------------------------*/
   delay(5000);  // To help when reflashing to erase (zero out) EEPROM varaibles
   
@@ -247,13 +257,27 @@ void loop() {
     if( generator_running != 0)
     {
       Log("Generator RUNNING!");
-      
+
+      unsigned long startWellPumpPumpingCycleMillis = millis();
       StartWellPump();
       // WAITING FOR wellPumpingTime is taken care of in StartWellPumpV2 (1 pumping cycle ~ 200 liters of water into the tank)
       StopWellPump();
+
+      /* ------------------------------------------------------------------
+                   PUMPED WATER AND TANK WATER ESTIMATIONS
+      ---------------------------------------------------------------------*/
+      unsigned long wellPumpPumpingCycleDuration = (millis() - startWellPumpPumpingCycleMillis);
+      double wellPumpPumpingCycleDurationMinutes =  wellPumpPumpingCycleDuration / (1000.0 * 60.0);
+      Log("WELL PUMP PUMPING CYCLE WAS " + String(wellPumpPumpingCycleDuration) + "ms = " + String(wellPumpPumpingCycleDurationMinutes) + "min");
       StopGenerator();
       
       generator_running = GeneratorStatusCheck(); // Checks if the generator has really been turned OFF
+
+      
+      wellPumpWaterThisCycle = wellPumpPumpingCycleDurationMinutes * wellPumpLitersPerMinute;
+      Log("Estimated volume of pumped water in this cycle: " + String(wellPumpWaterThisCycle) + " Liters");
+      tankLevelEstimation += wellPumpWaterThisCycle;
+      Log("Estimated overall water volume in the TANK: "+ String(tankLevelEstimation) + " Liters");
     }
     else
     {
@@ -265,8 +289,8 @@ void loop() {
     delay(wellRecoveryTime);
     Log("wellRecoveryTime timer has elapsed @: "+ String(millis()));
 
-    unsigned long duration = (millis() - startTankFillUpCycleMillis) / (1000UL * 60UL);
-    Log("END OF TANK FILLING_UP CYCLE: " + String(cycleCounter) + " @: "+ String(millis()) + " (" + String(duration) + " minutes)");
+    unsigned long TankFillUpCycleDuration = (millis() - startTankFillUpCycleMillis) / (1000UL * 60UL);
+    Log("END OF TANK FILLING_UP CYCLE: " + String(cycleCounter) + " @: "+ String(millis()) + " (" + String(TankFillUpCycleDuration) + " minutes)");
 
     cycleCounter ++;                // First set the Cycle Counter to cycleCounter ++, so the counter will be correct if the program is stoped during wellRecoveryTime (by me)
     EEPROM.put(20, cycleCounter);

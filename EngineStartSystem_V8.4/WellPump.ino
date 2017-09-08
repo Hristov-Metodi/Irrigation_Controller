@@ -18,7 +18,7 @@ void StartWellPump(){
       WELL_PUMP_STAT = 1;
     }
 
-    delay(700);
+    delay(440);
     generator_running = GeneratorStatusCheck();
     
     wellPumpRunning = WellPumpCurrentClampCheck();
@@ -27,7 +27,7 @@ void StartWellPump(){
     
     Log("Well Pump has been working for: " + String(timerChecker) + "ms");
     
-  }while((tankFull == 0) && (timerChecker < wellPumpingTime) && (generator_running)); // Add  && (wellPumpRunning) after testing
+  }while((tankFull == 0) && (wellPumpRunning) && (timerChecker < wellPumpingTime) && (generator_running)); // Add  && (wellPumpRunning) after testing
   //exit this loop when: Tank=FULL or PumpTime=ELAPSED or wellPumpRunning = IDLE or Generator=IDLE
 
   Log("Generator is " + String((generator_running)?"RUNNING":"NotRunning") + ". Well Pump is "+ String((wellPumpRunning)?"RUNNING":"NotRunning") + ". Tank is " + String((tankFull)?"FULL":"NotFull") + ". Timer = " + String(timerChecker));

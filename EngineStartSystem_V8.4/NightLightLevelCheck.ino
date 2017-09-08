@@ -1,5 +1,9 @@
 /* ------------------------------------------------------------------
                      NIGHT LIGHT LEVEL CHECK FUNCTION
+CONNECTIONS:
+1. 3.3V (yellow)
+2. A0   (green)
+3. 1K Ohm Pull Down resistor between GND and A0
 ---------------------------------------------------------------------*/
 
 void nightLightLevelCheck(){

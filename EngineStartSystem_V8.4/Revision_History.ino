@@ -19,6 +19,10 @@ Version 8.3:
    REF: https://learn.sparkfun.com/tutorials/tsl2561-luminosity-sensor-hookup-guide
  - I2CLightSensorCheck TESTING: I2CLightSensorCheck() called before every dayLightLevelCheck() function.
  - WellPumpCurrentClampCheck TESTING: WellPumpCurrentClampCheck() called after every GeneratorStatusCheck
+ - Current clamp sensor problems - high initial value
+ - Current clamp sensor problem fixed - delay of 5 measirement cycles before actually comparing values (TESTED)
+ - Well Pump pumping cycles duration calculations (ms and min) (TESTED)
+ - TANK level (water volume in liters) estimation calculation added
 
   Verison 8.5
  - Addition of the 1" 1/4 Tank Valve

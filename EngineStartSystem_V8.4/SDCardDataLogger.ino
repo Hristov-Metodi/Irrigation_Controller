@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------
-                     DATA LOGGING FUNCTION
+                     DATA LOGGING FUNCTIONS
 ---------------------------------------------------------------------*/
 #define SD_CARD_SELECT  (4)
 static File LogFile;
