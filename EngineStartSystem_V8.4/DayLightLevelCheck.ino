@@ -20,12 +20,12 @@ void dayLightLevelCheck(){
     
     Log("Light level = " + String(photocellReading));
     
-    if(photocellReading < 630)    // BASED ON SD CARD DATA (~ 120 Lux of light)
+    if(photocellReading < 665)    // Sun through a light cloud
     {
       Log("Too dark. Waiting for sun (10 min)... @: " + String(millis()));
       delay(10UL*60UL*1000UL); // waits for 10 minutes before checking again
     }
-  } while (photocellReading <= 630);
+  } while (photocellReading <= 665);
   
   Log("dayLightLevelCheck END @: " + String(millis()));
 }

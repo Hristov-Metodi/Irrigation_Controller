@@ -23,6 +23,7 @@ Version 8.3:
  - Current clamp sensor problem fixed - delay of 5 measirement cycles before actually comparing values (TESTED)
  - Well Pump pumping cycles duration calculations (ms and min) (TESTED)
  - TANK level (water volume in liters) estimation calculation added
+ - dayLightLevelCheck level increased to 685 (EXPERIMENTAL VALUE -  Sun through a light cloud)
 
   Verison 8.5
  - Addition of the 1" 1/4 Tank Valve
