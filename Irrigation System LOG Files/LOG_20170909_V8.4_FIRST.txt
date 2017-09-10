@@ -1,0 +1,833 @@
+SDcard initialized @: 1030
+LOGfile opened
+SoftwareVersion = 8.40
+reset_counter = 3
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 6198
+I2CLightSensorCheck START @: 6218
+I2C Light Sensor: 0.03 lux
+I2CLightSensorCheck END @: 6661
+dayLightLevelCheck START @: 6680
+Light level = 64
+Too dark. Waiting for sun (10 min)... @: 6724
+
+
+SDcard initialized @: 15
+LOGfile opened
+SoftwareVersion = 8.40
+reset_counter = 4
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5182
+I2CLightSensorCheck START @: 5201
+I2C Light Sensor: 4573.60 lux
+I2CLightSensorCheck END @: 5645
+dayLightLevelCheck START @: 5664
+Light level = 653
+dayLightLevelCheck END @: 5703
+StopGenerator BEGIN @: 5732
+GeneratorStatusCheck BEGIN @: 5862
+GENERATOR IS IDLE! @: 8885
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END @: 8925
+
+Ignition attempt = 1
+StartGenerator BEGIN @: 8971
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END @: 19170
+GeneratorStatusCheck BEGIN @: 19189
+GENERATOR IS WORKING! @: 22212
+Generator RUNNING!
+StartWellPump START @: 22252
+GeneratorStatusCheck BEGIN @: 22812
+GENERATOR IS WORKING! @: 25835
+WellPumpCurrentClampCheck START @: 25856
+Well Pump Current = 15.24 A
+WELL PUMP IS WORKING! @: 26168
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN @: 26747
+GENERATOR IS WORKING! @: 29771
+WellPumpCurrentClampCheck START @: 29796
+Well Pump Current = 4.94 A
+WELL PUMP IS WORKING! @: 30111
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN @: 30691
+GENERATOR IS WORKING! @: 33715
+WellPumpCurrentClampCheck START @: 33734
+Well Pump Current = 3.67 A
+WELL PUMP IS WORKING! @: 34050
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN @: 34629
+GENERATOR IS WORKING! @: 37653
+WellPumpCurrentClampCheck START @: 37672
+Well Pump Current = 3.61 A
+WELL PUMP IS WORKING! @: 37997
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN @: 38577
+GENERATOR IS WORKING! @: 41600
+WellPumpCurrentClampCheck START @: 41837
+Well Pump Current = 3.60 A
+WELL PUMP IS WORKING! @: 42148
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN @: 42726
+GENERATOR IS WORKING! @: 45747
+WellPumpCurrentClampCheck START @: 45765
+Well Pump Current = 3.61 A
+WELL PUMP IS WORKING! @: 46076
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN @: 46654
+GENERATOR IS WORKING! @: 49681
+WellPumpCurrentClampCheck START @: 49699
+Well Pump Current = 3.61 A
+WELL PUMP IS WORKING! @: 50011
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN @: 50588
+GENERATOR IS WORKING! @: 53610
+WellPumpCurrentClampCheck START @: 53627
+Well Pump Current = 3.61 A
+WELL PUMP IS WORKING! @: 53939
+Well Pump has been working for: 32000ms
+GeneratorStatusCheck BEGIN @: 54516
+GENERATOR IS WORKING! @: 57537
+WellPumpCurrentClampCheck START @: 57555
+Well Pump Current = 3.65 A
+WELL PUMP IS WORKING! @: 58507
+Well Pump has been working for: 36000ms
+GeneratorStatusCheck BEGIN @: 59084
+GENERATOR IS WORKING! @: 62106
+WellPumpCurrentClampCheck START @: 62124
+Well Pump Current = 3.64 A
+WELL PUMP IS WORKING! @: 62436
+Well Pump has been working for: 40000ms
+GeneratorStatusCheck BEGIN @: 63012
+GENERATOR IS WORKING! @: 66034
+WellPumpCurrentClampCheck START @: 66053
+Well Pump Current = 1.65 A
+WELL PUMP IS WORKING! @: 66369
+Well Pump has been working for: 44000ms
+GeneratorStatusCheck BEGIN @: 66951
+GENERATOR IS IDLE! @: 69972
+WellPumpCurrentClampCheck START @: 69991
+Well Pump Current = 0.39 A
+WELL PUMP IS IDLE! @: 70307
+Well Pump has been working for: 48000ms
+Generator is NotRunning. Well Pump is NotRunning. Tank is NotFull. Timer = 48000
+StartWellPump END @: 70427
+StopWellPump START @: 70456
+StopWellPump END @: 71486
+WELL PUMP PUMPING CYCLE WAS 49252ms = 0.82min
+StopGenerator BEGIN @: 71523
+GeneratorStatusCheck BEGIN @: 71645
+GENERATOR IS IDLE! @: 74667
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END @: 74711
+GeneratorStatusCheck BEGIN @: 74729
+GENERATOR IS IDLE! @: 77762
+Estimated volume of pumped water in this cycle: 38.30 Liters
+Estimated overall water volume in the TANK: 38.30 Liters
+Starting wellRecoveryTime timer...@: 77870
+
+
+SDcard initialized @: 15
+LOGfile opened
+SoftwareVersion = 8.40
+reset_counter = 5
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5183
+I2CLightSensorCheck START @: 5204
+I2C Light Sensor: 3625.92 lux
+I2CLightSensorCheck END @: 5649
+dayLightLevelCheck START @: 5675
+Light level = 650
+dayLightLevelCheck END @: 5714
+StopGenerator BEGIN @: 5736
+GeneratorStatusCheck BEGIN @: 5866
+GENERATOR IS IDLE! @: 8891
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END @: 8932
+
+Ignition attempt = 1
+StartGenerator BEGIN @: 8973
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END @: 19177
+GeneratorStatusCheck BEGIN @: 19197
+GENERATOR IS WORKING! @: 22222
+Generator RUNNING!
+StartWellPump START @: 22262
+GeneratorStatusCheck BEGIN @: 23031
+GENERATOR IS WORKING! @: 26056
+WellPumpCurrentClampCheck START @: 26078
+Well Pump Current = 15.19 A
+WELL PUMP IS WORKING! @: 26393
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN @: 26976
+GENERATOR IS WORKING! @: 30001
+WellPumpCurrentClampCheck START @: 30022
+Well Pump Current = 4.94 A
+WELL PUMP IS WORKING! @: 30341
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN @: 30922
+GENERATOR IS WORKING! @: 33947
+WellPumpCurrentClampCheck START @: 33969
+Well Pump Current = 3.71 A
+WELL PUMP IS WORKING! @: 34293
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN @: 34876
+GENERATOR IS WORKING! @: 37901
+WellPumpCurrentClampCheck START @: 37922
+Well Pump Current = 3.65 A
+WELL PUMP IS WORKING! @: 38241
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN @: 38822
+GENERATOR IS WORKING! @: 41848
+WellPumpCurrentClampCheck START @: 41869
+Well Pump Current = 3.65 A
+WELL PUMP IS WORKING! @: 42187
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN @: 42777
+GENERATOR IS WORKING! @: 45802
+WellPumpCurrentClampCheck START @: 45824
+Well Pump Current = 3.67 A
+WELL PUMP IS WORKING! @: 46149
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN @: 46730
+GENERATOR IS WORKING! @: 49754
+WellPumpCurrentClampCheck START @: 49774
+Well Pump Current = 3.70 A
+WELL PUMP IS WORKING! @: 50092
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN @: 50672
+GENERATOR IS WORKING! @: 53697
+WellPumpCurrentClampCheck START @: 53725
+Well Pump Current = 3.66 A
+WELL PUMP IS WORKING! @: 54041
+Well Pump has been working for: 32000ms
+GeneratorStatusCheck BEGIN @: 54622
+GENERATOR IS WORKING! @: 57646
+WellPumpCurrentClampCheck START @: 57666
+Well Pump Current = 3.66 A
+WELL PUMP IS WORKING! @: 57982
+Well Pump has been working for: 36000ms
+GeneratorStatusCheck BEGIN @: 58563
+GENERATOR IS WORKING! @: 61588
+WellPumpCurrentClampCheck START @: 61608
+Well Pump Current = 3.66 A
+WELL PUMP IS WORKING! @: 62348
+Well Pump has been working for: 40000ms
+GeneratorStatusCheck BEGIN @: 62923
+GENERATOR IS WORKING! @: 65945
+WellPumpCurrentClampCheck START @: 65964
+Well Pump Current = 3.72 A
+WELL PUMP IS WORKING! @: 66275
+Well Pump has been working for: 44000ms
+GeneratorStatusCheck BEGIN @: 66852
+GENERATOR IS WORKING! @: 69874
+WellPumpCurrentClampCheck START @: 69892
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 70204
+Well Pump has been working for: 48000ms
+GeneratorStatusCheck BEGIN @: 70780
+GENERATOR IS WORKING! @: 73806
+WellPumpCurrentClampCheck START @: 73825
+Well Pump Current = 3.67 A
+WELL PUMP IS WORKING! @: 74137
+Well Pump has been working for: 52000ms
+GeneratorStatusCheck BEGIN @: 74715
+GENERATOR IS WORKING! @: 77736
+WellPumpCurrentClampCheck START @: 77755
+Well Pump Current = 3.67 A
+WELL PUMP IS WORKING! @: 78066
+Well Pump has been working for: 56000ms
+GeneratorStatusCheck BEGIN @: 78644
+GENERATOR IS WORKING! @: 81666
+WellPumpCurrentClampCheck START @: 81684
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 82003
+Well Pump has been working for: 60000ms
+GeneratorStatusCheck BEGIN @: 82581
+GENERATOR IS WORKING! @: 85603
+WellPumpCurrentClampCheck START @: 85621
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 85940
+Well Pump has been working for: 64000ms
+GeneratorStatusCheck BEGIN @: 86517
+GENERATOR IS WORKING! @: 89539
+WellPumpCurrentClampCheck START @: 89558
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 89870
+Well Pump has been working for: 68000ms
+GeneratorStatusCheck BEGIN @: 90451
+GENERATOR IS WORKING! @: 93473
+WellPumpCurrentClampCheck START @: 93492
+Well Pump Current = 3.70 A
+WELL PUMP IS WORKING! @: 93803
+Well Pump has been working for: 72000ms
+GeneratorStatusCheck BEGIN @: 94381
+GENERATOR IS WORKING! @: 97402
+WellPumpCurrentClampCheck START @: 97421
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 97732
+Well Pump has been working for: 76000ms
+GeneratorStatusCheck BEGIN @: 98310
+GENERATOR IS WORKING! @: 101331
+WellPumpCurrentClampCheck START @: 101357
+Well Pump Current = 3.71 A
+WELL PUMP IS WORKING! @: 101876
+Well Pump has been working for: 80000ms
+GeneratorStatusCheck BEGIN @: 102457
+GENERATOR IS WORKING! @: 105481
+WellPumpCurrentClampCheck START @: 105501
+Well Pump Current = 3.74 A
+WELL PUMP IS WORKING! @: 105818
+Well Pump has been working for: 84000ms
+GeneratorStatusCheck BEGIN @: 106398
+GENERATOR IS WORKING! @: 109423
+WellPumpCurrentClampCheck START @: 109444
+Well Pump Current = 3.74 A
+WELL PUMP IS WORKING! @: 109760
+Well Pump has been working for: 88000ms
+GeneratorStatusCheck BEGIN @: 110348
+GENERATOR IS WORKING! @: 113372
+WellPumpCurrentClampCheck START @: 113392
+Well Pump Current = 3.73 A
+WELL PUMP IS WORKING! @: 113710
+Well Pump has been working for: 92000ms
+GeneratorStatusCheck BEGIN @: 114290
+GENERATOR IS WORKING! @: 117314
+WellPumpCurrentClampCheck START @: 117335
+Well Pump Current = 3.72 A
+WELL PUMP IS WORKING! @: 117652
+Well Pump has been working for: 96000ms
+GeneratorStatusCheck BEGIN @: 118233
+GENERATOR IS WORKING! @: 121264
+WellPumpCurrentClampCheck START @: 121284
+Well Pump Current = 3.78 A
+WELL PUMP IS WORKING! @: 121601
+Well Pump has been working for: 100000ms
+GeneratorStatusCheck BEGIN @: 122182
+GENERATOR IS WORKING! @: 125206
+WellPumpCurrentClampCheck START @: 125227
+Well Pump Current = 3.72 A
+WELL PUMP IS WORKING! @: 125550
+Well Pump has been working for: 104000ms
+GeneratorStatusCheck BEGIN @: 126132
+GENERATOR IS WORKING! @: 129156
+WellPumpCurrentClampCheck START @: 129176
+Well Pump Current = 3.72 A
+WELL PUMP IS WORKING! @: 129500
+Well Pump has been working for: 108000ms
+GeneratorStatusCheck BEGIN @: 130080
+GENERATOR IS WORKING! @: 133104
+WellPumpCurrentClampCheck START @: 133126
+Well Pump Current = 3.73 A
+WELL PUMP IS WORKING! @: 133442
+Well Pump has been working for: 112000ms
+GeneratorStatusCheck BEGIN @: 134023
+GENERATOR IS WORKING! @: 137047
+WellPumpCurrentClampCheck START @: 137067
+Well Pump Current = 3.74 A
+WELL PUMP IS WORKING! @: 137383
+Well Pump has been working for: 116000ms
+GeneratorStatusCheck BEGIN @: 137987
+GENERATOR IS WORKING! @: 141010
+WellPumpCurrentClampCheck START @: 141031
+Well Pump Current = 3.75 A
+WELL PUMP IS WORKING! @: 141551
+Well Pump has been working for: 120000ms
+GeneratorStatusCheck BEGIN @: 142134
+GENERATOR IS WORKING! @: 145159
+WellPumpCurrentClampCheck START @: 145180
+Well Pump Current = 3.81 A
+WELL PUMP IS WORKING! @: 145498
+Well Pump has been working for: 124000ms
+GeneratorStatusCheck BEGIN @: 146080
+GENERATOR IS WORKING! @: 149110
+WellPumpCurrentClampCheck START @: 149132
+Well Pump Current = 3.74 A
+WELL PUMP IS WORKING! @: 149450
+Well Pump has been working for: 128000ms
+GeneratorStatusCheck BEGIN @: 150033
+GENERATOR IS WORKING! @: 153058
+WellPumpCurrentClampCheck START @: 153079
+Well Pump Current = 3.76 A
+WELL PUMP IS WORKING! @: 153397
+Well Pump has been working for: 132000ms
+GeneratorStatusCheck BEGIN @: 153979
+GENERATOR IS WORKING! @: 157004
+WellPumpCurrentClampCheck START @: 157026
+Well Pump Current = 3.75 A
+WELL PUMP IS WORKING! @: 157352
+Well Pump has been working for: 136000ms
+GeneratorStatusCheck BEGIN @: 157935
+GENERATOR IS WORKING! @: 160960
+WellPumpCurrentClampCheck START @: 160982
+Well Pump Current = 3.77 A
+WELL PUMP IS WORKING! @: 161300
+Well Pump has been working for: 140000ms
+GeneratorStatusCheck BEGIN @: 161883
+GENERATOR IS WORKING! @: 164908
+WellPumpCurrentClampCheck START @: 164936
+Well Pump Current = 3.76 A
+WELL PUMP IS WORKING! @: 165255
+Well Pump has been working for: 144000ms
+GeneratorStatusCheck BEGIN @: 165843
+GENERATOR IS WORKING! @: 168869
+WellPumpCurrentClampCheck START @: 168890
+Well Pump Current = 3.77 A
+WELL PUMP IS WORKING! @: 169208
+Well Pump has been working for: 148000ms
+GeneratorStatusCheck BEGIN @: 169791
+GENERATOR IS WORKING! @: 172816
+WellPumpCurrentClampCheck START @: 172837
+Well Pump Current = 3.78 A
+WELL PUMP IS WORKING! @: 173156
+Well Pump has been working for: 152000ms
+GeneratorStatusCheck BEGIN @: 173737
+GENERATOR IS WORKING! @: 176762
+WellPumpCurrentClampCheck START @: 176791
+Well Pump Current = 3.78 A
+WELL PUMP IS WORKING! @: 177108
+Well Pump has been working for: 156000ms
+GeneratorStatusCheck BEGIN @: 177692
+GENERATOR IS WORKING! @: 180716
+WellPumpCurrentClampCheck START @: 180939
+Well Pump Current = 3.79 A
+WELL PUMP IS WORKING! @: 181254
+Well Pump has been working for: 160000ms
+GeneratorStatusCheck BEGIN @: 181833
+GENERATOR IS WORKING! @: 184856
+WellPumpCurrentClampCheck START @: 184877
+Well Pump Current = 3.79 A
+WELL PUMP IS WORKING! @: 185199
+Well Pump has been working for: 164000ms
+GeneratorStatusCheck BEGIN @: 185779
+GENERATOR IS WORKING! @: 188802
+WellPumpCurrentClampCheck START @: 188822
+Well Pump Current = 3.80 A
+WELL PUMP IS WORKING! @: 189136
+Well Pump has been working for: 168000ms
+GeneratorStatusCheck BEGIN @: 189716
+GENERATOR IS WORKING! @: 192740
+WellPumpCurrentClampCheck START @: 192759
+Well Pump Current = 3.79 A
+WELL PUMP IS WORKING! @: 193074
+Well Pump has been working for: 172000ms
+GeneratorStatusCheck BEGIN @: 193658
+GENERATOR IS WORKING! @: 196682
+WellPumpCurrentClampCheck START @: 196702
+Well Pump Current = 3.70 A
+WELL PUMP IS WORKING! @: 197017
+Well Pump has been working for: 176000ms
+GeneratorStatusCheck BEGIN @: 197597
+GENERATOR IS WORKING! @: 200620
+WellPumpCurrentClampCheck START @: 200640
+Well Pump Current = 2.35 A
+WELL PUMP IS WORKING! @: 200957
+Well Pump has been working for: 180000ms
+GeneratorStatusCheck BEGIN @: 201537
+GENERATOR IS WORKING! @: 204561
+WellPumpCurrentClampCheck START @: 204596
+Well Pump Current = 1.10 A
+WELL PUMP IS WORKING! @: 204915
+Well Pump has been working for: 184000ms
+GeneratorStatusCheck BEGIN @: 205494
+GENERATOR IS WORKING! @: 208518
+WellPumpCurrentClampCheck START @: 208537
+Well Pump Current = 0.35 A
+WELL PUMP IS WORKING! @: 208859
+Well Pump has been working for: 188000ms
+GeneratorStatusCheck BEGIN @: 209437
+GENERATOR IS WORKING! @: 212461
+WellPumpCurrentClampCheck START @: 212481
+Well Pump Current = 0.26 A
+WELL PUMP IS IDLE! @: 212828
+Well Pump has been working for: 192000ms
+Generator is RUNNING. Well Pump is NotRunning. Tank is NotFull. Timer = 192000
+StartWellPump END @: 212938
+StopWellPump START @: 212968
+StopWellPump END @: 213999
+WELL PUMP PUMPING CYCLE WAS 191757ms = 3.20min
+StopGenerator BEGIN @: 214039
+GeneratorStatusCheck BEGIN @: 214162
+GENERATOR IS IDLE! @: 217186
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END @: 217426
+GeneratorStatusCheck BEGIN @: 217445
+GENERATOR IS IDLE! @: 220475
+Estimated volume of pumped water in this cycle: 149.12 Liters
+Estimated overall water volume in the TANK: 149.12 Liters
+Starting wellRecoveryTime timer...@: 220583
+
+
+SDcard initialized @: 14
+LOGfile opened
+SoftwareVersion = 8.40
+reset_counter = 8
+cranck_reset_check=0
+
+START OF TANK FILLING_UP CYCLE: 0 @: 5183
+I2CLightSensorCheck START @: 5204
+I2C Light Sensor: 0.00 lux
+I2CLightSensorCheck END @: 5648
+dayLightLevelCheck START @: 5668
+Light level = 665
+dayLightLevelCheck END @: 5709
+StopGenerator BEGIN @: 5732
+GeneratorStatusCheck BEGIN @: 5862
+GENERATOR IS IDLE! @: 8886
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END @: 8928
+
+Ignition attempt = 1
+StartGenerator BEGIN @: 8975
+cranck_reset_check = 1
+cranck_reset_check = 0
+StartGenerator END @: 19173
+GeneratorStatusCheck BEGIN @: 19193
+GENERATOR IS WORKING! @: 22217
+Generator RUNNING!
+StartWellPump START @: 22258
+GeneratorStatusCheck BEGIN @: 22818
+GENERATOR IS WORKING! @: 25843
+WellPumpCurrentClampCheck START @: 25864
+Well Pump Current = 15.21 A
+WELL PUMP IS WORKING! @: 26178
+Well Pump has been working for: 4000ms
+GeneratorStatusCheck BEGIN @: 26759
+GENERATOR IS WORKING! @: 29783
+WellPumpCurrentClampCheck START @: 29810
+Well Pump Current = 4.87 A
+WELL PUMP IS WORKING! @: 30127
+Well Pump has been working for: 8000ms
+GeneratorStatusCheck BEGIN @: 30708
+GENERATOR IS WORKING! @: 33733
+WellPumpCurrentClampCheck START @: 33754
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 34071
+Well Pump has been working for: 12000ms
+GeneratorStatusCheck BEGIN @: 34852
+GENERATOR IS WORKING! @: 37876
+WellPumpCurrentClampCheck START @: 37898
+Well Pump Current = 3.61 A
+WELL PUMP IS WORKING! @: 38214
+Well Pump has been working for: 16000ms
+GeneratorStatusCheck BEGIN @: 38800
+GENERATOR IS WORKING! @: 41824
+WellPumpCurrentClampCheck START @: 41845
+Well Pump Current = 3.62 A
+WELL PUMP IS WORKING! @: 42162
+Well Pump has been working for: 20000ms
+GeneratorStatusCheck BEGIN @: 42743
+GENERATOR IS WORKING! @: 45767
+WellPumpCurrentClampCheck START @: 45788
+Well Pump Current = 3.60 A
+WELL PUMP IS WORKING! @: 46111
+Well Pump has been working for: 24000ms
+GeneratorStatusCheck BEGIN @: 46687
+GENERATOR IS WORKING! @: 49717
+WellPumpCurrentClampCheck START @: 49734
+Well Pump Current = 3.62 A
+WELL PUMP IS WORKING! @: 50046
+Well Pump has been working for: 28000ms
+GeneratorStatusCheck BEGIN @: 50623
+GENERATOR IS WORKING! @: 53645
+WellPumpCurrentClampCheck START @: 53663
+Well Pump Current = 3.63 A
+WELL PUMP IS WORKING! @: 53976
+Well Pump has been working for: 32000ms
+GeneratorStatusCheck BEGIN @: 54552
+GENERATOR IS WORKING! @: 57574
+WellPumpCurrentClampCheck START @: 57592
+Well Pump Current = 3.66 A
+WELL PUMP IS WORKING! @: 57910
+Well Pump has been working for: 36000ms
+GeneratorStatusCheck BEGIN @: 58486
+GENERATOR IS WORKING! @: 61508
+WellPumpCurrentClampCheck START @: 61527
+Well Pump Current = 3.63 A
+WELL PUMP IS WORKING! @: 61839
+Well Pump has been working for: 40000ms
+GeneratorStatusCheck BEGIN @: 62415
+GENERATOR IS WORKING! @: 65437
+WellPumpCurrentClampCheck START @: 65456
+Well Pump Current = 3.64 A
+WELL PUMP IS WORKING! @: 65768
+Well Pump has been working for: 44000ms
+GeneratorStatusCheck BEGIN @: 66353
+GENERATOR IS WORKING! @: 69374
+WellPumpCurrentClampCheck START @: 69393
+Well Pump Current = 3.64 A
+WELL PUMP IS WORKING! @: 69706
+Well Pump has been working for: 48000ms
+GeneratorStatusCheck BEGIN @: 70283
+GENERATOR IS WORKING! @: 73305
+WellPumpCurrentClampCheck START @: 73323
+Well Pump Current = 3.64 A
+WELL PUMP IS WORKING! @: 73635
+Well Pump has been working for: 52000ms
+GeneratorStatusCheck BEGIN @: 74413
+GENERATOR IS WORKING! @: 77434
+WellPumpCurrentClampCheck START @: 77453
+Well Pump Current = 3.70 A
+WELL PUMP IS WORKING! @: 78193
+Well Pump has been working for: 56000ms
+GeneratorStatusCheck BEGIN @: 78770
+GENERATOR IS WORKING! @: 81792
+WellPumpCurrentClampCheck START @: 81810
+Well Pump Current = 3.67 A
+WELL PUMP IS WORKING! @: 82122
+Well Pump has been working for: 60000ms
+GeneratorStatusCheck BEGIN @: 82699
+GENERATOR IS WORKING! @: 85721
+WellPumpCurrentClampCheck START @: 85739
+Well Pump Current = 3.66 A
+WELL PUMP IS WORKING! @: 86059
+Well Pump has been working for: 64000ms
+GeneratorStatusCheck BEGIN @: 86641
+GENERATOR IS WORKING! @: 89662
+WellPumpCurrentClampCheck START @: 89680
+Well Pump Current = 3.66 A
+WELL PUMP IS WORKING! @: 89993
+Well Pump has been working for: 68000ms
+GeneratorStatusCheck BEGIN @: 90569
+GENERATOR IS WORKING! @: 93591
+WellPumpCurrentClampCheck START @: 93609
+Well Pump Current = 3.67 A
+WELL PUMP IS WORKING! @: 93922
+Well Pump has been working for: 72000ms
+GeneratorStatusCheck BEGIN @: 94498
+GENERATOR IS WORKING! @: 97526
+WellPumpCurrentClampCheck START @: 97545
+Well Pump Current = 3.66 A
+WELL PUMP IS WORKING! @: 97857
+Well Pump has been working for: 76000ms
+GeneratorStatusCheck BEGIN @: 98434
+GENERATOR IS WORKING! @: 101455
+WellPumpCurrentClampCheck START @: 101474
+Well Pump Current = 3.67 A
+WELL PUMP IS WORKING! @: 101786
+Well Pump has been working for: 80000ms
+GeneratorStatusCheck BEGIN @: 102365
+GENERATOR IS WORKING! @: 105387
+WellPumpCurrentClampCheck START @: 105405
+Well Pump Current = 3.68 A
+WELL PUMP IS WORKING! @: 105723
+Well Pump has been working for: 84000ms
+GeneratorStatusCheck BEGIN @: 106300
+GENERATOR IS WORKING! @: 109322
+WellPumpCurrentClampCheck START @: 109340
+Well Pump Current = 3.68 A
+WELL PUMP IS WORKING! @: 109652
+Well Pump has been working for: 88000ms
+GeneratorStatusCheck BEGIN @: 110231
+GENERATOR IS WORKING! @: 113253
+WellPumpCurrentClampCheck START @: 113271
+Well Pump Current = 3.70 A
+WELL PUMP IS WORKING! @: 113584
+Well Pump has been working for: 92000ms
+GeneratorStatusCheck BEGIN @: 114167
+GENERATOR IS WORKING! @: 117190
+WellPumpCurrentClampCheck START @: 117408
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 117721
+Well Pump has been working for: 96000ms
+GeneratorStatusCheck BEGIN @: 118298
+GENERATOR IS WORKING! @: 121320
+WellPumpCurrentClampCheck START @: 121338
+Well Pump Current = 3.68 A
+WELL PUMP IS WORKING! @: 121651
+Well Pump has been working for: 100000ms
+GeneratorStatusCheck BEGIN @: 122230
+GENERATOR IS WORKING! @: 125252
+WellPumpCurrentClampCheck START @: 125286
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 125602
+Well Pump has been working for: 104000ms
+GeneratorStatusCheck BEGIN @: 126183
+GENERATOR IS WORKING! @: 129207
+WellPumpCurrentClampCheck START @: 129227
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 129544
+Well Pump has been working for: 108000ms
+GeneratorStatusCheck BEGIN @: 130125
+GENERATOR IS WORKING! @: 133149
+WellPumpCurrentClampCheck START @: 133170
+Well Pump Current = 3.70 A
+WELL PUMP IS WORKING! @: 133486
+Well Pump has been working for: 112000ms
+GeneratorStatusCheck BEGIN @: 134066
+GENERATOR IS WORKING! @: 137091
+WellPumpCurrentClampCheck START @: 137111
+Well Pump Current = 3.71 A
+WELL PUMP IS WORKING! @: 137427
+Well Pump has been working for: 116000ms
+GeneratorStatusCheck BEGIN @: 138008
+GENERATOR IS WORKING! @: 141032
+WellPumpCurrentClampCheck START @: 141053
+Well Pump Current = 3.69 A
+WELL PUMP IS WORKING! @: 141370
+Well Pump has been working for: 120000ms
+GeneratorStatusCheck BEGIN @: 141950
+GENERATOR IS WORKING! @: 144979
+WellPumpCurrentClampCheck START @: 145000
+Well Pump Current = 3.75 A
+WELL PUMP IS WORKING! @: 145317
+Well Pump has been working for: 124000ms
+GeneratorStatusCheck BEGIN @: 145898
+GENERATOR IS WORKING! @: 148922
+WellPumpCurrentClampCheck START @: 148942
+Well Pump Current = 3.71 A
+WELL PUMP IS WORKING! @: 149259
+Well Pump has been working for: 128000ms
+GeneratorStatusCheck BEGIN @: 149840
+GENERATOR IS WORKING! @: 152864
+WellPumpCurrentClampCheck START @: 152885
+Well Pump Current = 3.78 A
+WELL PUMP IS WORKING! @: 153225
+Well Pump has been working for: 132000ms
+GeneratorStatusCheck BEGIN @: 153806
+GENERATOR IS WORKING! @: 156830
+WellPumpCurrentClampCheck START @: 157051
+Well Pump Current = 3.74 A
+WELL PUMP IS WORKING! @: 157368
+Well Pump has been working for: 136000ms
+GeneratorStatusCheck BEGIN @: 157948
+GENERATOR IS WORKING! @: 160972
+WellPumpCurrentClampCheck START @: 160993
+Well Pump Current = 3.74 A
+WELL PUMP IS WORKING! @: 161309
+Well Pump has been working for: 140000ms
+GeneratorStatusCheck BEGIN @: 161896
+GENERATOR IS WORKING! @: 164921
+WellPumpCurrentClampCheck START @: 164950
+Well Pump Current = 3.74 A
+WELL PUMP IS WORKING! @: 165261
+Well Pump has been working for: 144000ms
+GeneratorStatusCheck BEGIN @: 165840
+GENERATOR IS WORKING! @: 168862
+WellPumpCurrentClampCheck START @: 168881
+Well Pump Current = 3.75 A
+WELL PUMP IS WORKING! @: 169192
+Well Pump has been working for: 148000ms
+GeneratorStatusCheck BEGIN @: 169772
+GENERATOR IS WORKING! @: 172797
+WellPumpCurrentClampCheck START @: 172816
+Well Pump Current = 3.77 A
+WELL PUMP IS WORKING! @: 173128
+Well Pump has been working for: 152000ms
+GeneratorStatusCheck BEGIN @: 173708
+GENERATOR IS WORKING! @: 176729
+WellPumpCurrentClampCheck START @: 176747
+Well Pump Current = 3.75 A
+WELL PUMP IS WORKING! @: 177059
+Well Pump has been working for: 156000ms
+GeneratorStatusCheck BEGIN @: 177639
+GENERATOR IS WORKING! @: 180661
+WellPumpCurrentClampCheck START @: 180679
+Well Pump Current = 3.79 A
+WELL PUMP IS WORKING! @: 180999
+Well Pump has been working for: 160000ms
+GeneratorStatusCheck BEGIN @: 181577
+GENERATOR IS WORKING! @: 184599
+WellPumpCurrentClampCheck START @: 184617
+Well Pump Current = 3.78 A
+WELL PUMP IS WORKING! @: 184930
+Well Pump has been working for: 164000ms
+GeneratorStatusCheck BEGIN @: 185509
+GENERATOR IS WORKING! @: 188531
+WellPumpCurrentClampCheck START @: 188550
+Well Pump Current = 3.75 A
+WELL PUMP IS WORKING! @: 188862
+Well Pump has been working for: 168000ms
+GeneratorStatusCheck BEGIN @: 189446
+GENERATOR IS WORKING! @: 192467
+WellPumpCurrentClampCheck START @: 192486
+Well Pump Current = 3.76 A
+WELL PUMP IS WORKING! @: 192798
+Well Pump has been working for: 172000ms
+GeneratorStatusCheck BEGIN @: 193377
+GENERATOR IS WORKING! @: 196399
+WellPumpCurrentClampCheck START @: 196619
+Well Pump Current = 3.81 A
+WELL PUMP IS WORKING! @: 196931
+Well Pump has been working for: 176000ms
+GeneratorStatusCheck BEGIN @: 197511
+GENERATOR IS WORKING! @: 200539
+WellPumpCurrentClampCheck START @: 200557
+Well Pump Current = 3.76 A
+WELL PUMP IS WORKING! @: 200868
+Well Pump has been working for: 180000ms
+GeneratorStatusCheck BEGIN @: 201448
+GENERATOR IS WORKING! @: 204477
+WellPumpCurrentClampCheck START @: 204495
+Well Pump Current = 3.79 A
+WELL PUMP IS WORKING! @: 204808
+Well Pump has been working for: 184000ms
+GeneratorStatusCheck BEGIN @: 205386
+GENERATOR IS WORKING! @: 208408
+WellPumpCurrentClampCheck START @: 208427
+Well Pump Current = 3.83 A
+WELL PUMP IS WORKING! @: 208746
+Well Pump has been working for: 188000ms
+GeneratorStatusCheck BEGIN @: 209321
+GENERATOR IS WORKING! @: 212343
+WellPumpCurrentClampCheck START @: 212362
+Well Pump Current = 3.77 A
+WELL PUMP IS WORKING! @: 212673
+Well Pump has been working for: 192000ms
+GeneratorStatusCheck BEGIN @: 213253
+GENERATOR IS WORKING! @: 216274
+WellPumpCurrentClampCheck START @: 216293
+Well Pump Current = 3.79 A
+WELL PUMP IS WORKING! @: 216605
+Well Pump has been working for: 196000ms
+GeneratorStatusCheck BEGIN @: 217189
+GENERATOR IS WORKING! @: 220211
+WellPumpCurrentClampCheck START @: 220229
+Well Pump Current = 3.81 A
+WELL PUMP IS WORKING! @: 220540
+Well Pump has been working for: 200000ms
+GeneratorStatusCheck BEGIN @: 221120
+GENERATOR IS WORKING! @: 224142
+WellPumpCurrentClampCheck START @: 224160
+Well Pump Current = 2.08 A
+WELL PUMP IS WORKING! @: 224475
+Well Pump has been working for: 204000ms
+GeneratorStatusCheck BEGIN @: 225054
+GENERATOR IS WORKING! @: 228076
+WellPumpCurrentClampCheck START @: 228121
+Well Pump Current = 1.47 A
+WELL PUMP IS WORKING! @: 228439
+Well Pump has been working for: 208000ms
+GeneratorStatusCheck BEGIN @: 229018
+GENERATOR IS WORKING! @: 232040
+WellPumpCurrentClampCheck START @: 232058
+Well Pump Current = 0.62 A
+WELL PUMP IS WORKING! @: 232376
+Well Pump has been working for: 212000ms
+GeneratorStatusCheck BEGIN @: 232955
+GENERATOR IS WORKING! @: 236179
+WellPumpCurrentClampCheck START @: 236197
+Well Pump Current = 0.28 A
+WELL PUMP IS IDLE! @: 236524
+Well Pump has been working for: 216000ms
+Generator is RUNNING. Well Pump is NotRunning. Tank is NotFull. Timer = 216000
+StartWellPump END @: 236637
+StopWellPump START @: 236667
+StopWellPump END @: 237699
+WELL PUMP PUMPING CYCLE WAS 215458ms = 3.59min
+StopGenerator BEGIN @: 237734
+GeneratorStatusCheck BEGIN @: 237870
+GENERATOR IS IDLE! @: 240890
+GeneratorRunning = 0. ElapsedTime = 3000
+StopGenerator END @: 240927
+GeneratorStatusCheck BEGIN @: 240947
+GENERATOR IS IDLE! @: 243989
+Estimated volume of pumped water in this cycle: 167.55 Liters
+Estimated overall water volume in the TANK: 167.55 Liters
+Starting wellRecoveryTime timer...@: 244098
+
